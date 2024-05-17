@@ -1039,3 +1039,63 @@ a {
         }
     }
 }
+
+/*-- -------------------------- -->
+<---     Pricing & Packages     -->
+<--- -------------------------- -*/
+
+.text-center {
+    text-align: center;
+}
+
+.section-package-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--bodyTextColorWhite);
+}
+
+.card{
+    display: grid;
+    place-content: center;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    h3{
+        margin-bottom: 1rem;
+    }
+}
+.card-white{
+    background-color: white;
+    h3{
+        color: #3b82f6;
+    }
+}
+.full-day-price{
+    color: var(--primary)
+}
+.full-day-discount{
+    font-size: 1.2rem;
+    font-weight:700;
+}
+.card-special{
+    background-color: var(--secondary);
+    h3{
+        color: white;
+    }
+    .special{
+        color: white;
+    }
+}
+
+.card-text{
+    color: rgb(201, 201, 201);
+}
